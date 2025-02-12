@@ -138,6 +138,9 @@
     
 ## 39. Cuando hay un conflicto entre archivos lo mejor es:
     Analizar los conflictos tal como los reportó Git y elegir los cambios finales, luego commit.
+
+## 40. Que comando usarías para clonar un repositorio desde GitHub a tu máquina local:
+    'git clone'
     
     
     
