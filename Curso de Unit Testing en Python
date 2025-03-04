@@ -1,0 +1,42 @@
+###1 ¿Qué tipo de prueba se debe realizar para validar el correcto funcionamiento de componentes individuales del código?
+Pruebas unitarias
+###2 Para verificar si el software cumple las expectativas del usuario final, ¿qué prueba debe realizarse?
+Pruebas de aceptación
+###3 ¿Cuál es la ventaja principal de automatizar las pruebas con Python?
+no es garantizar que no hayan errores en producción
+La ventaja principal de automatizar las pruebas con Python (o cualquier otro lenguaje de programación) es que mejora la eficiencia y la confiabilidad del proceso de pruebas. Al automatizar las pruebas, puedes ejecutar rápidamente un conjunto de pruebas de manera repetitiva, lo que permite detectar errores y problemas de manera temprana, incluso después de realizar cambios en el código.
+Ventajas clave de automatizar las pruebas con Python:
+    Detección temprana de errores: Las pruebas automatizadas permiten ejecutar verificaciones rápidamente después de cada cambio en el código, lo que ayuda a detectar errores antes de que se propaguen y afecten otras partes del sistema.
+    Reducción de la intervención manual: La automatización elimina la necesidad de ejecutar las pruebas manualmente, lo que ahorra tiempo y esfuerzo en las fases de desarrollo y pruebas.
+    Ejecución repetitiva: Puedes ejecutar las pruebas automáticamente cada vez que se realicen cambios en el código, sin tener que preocuparte por olvidar ejecutar las pruebas manualmente. Esto es esencial en entornos de desarrollo ágiles.
+    Facilidad para realizar regresiones: Las pruebas automatizadas ayudan a verificar que el código nuevo no rompa funcionalidades existentes (regresión). Esto es crucial en proyectos grandes o de largo plazo.
+    Mejora de la cobertura de las pruebas: Automatizar las pruebas permite ejecutar una gran cantidad de pruebas en poco tiempo, lo que resulta en una mejor cobertura del código. Esto asegura que la mayoría de las funcionalidades sean verificadas regularmente.
+    Facilita la integración continua (CI): La automatización de las pruebas es una parte esencial de las prácticas de integración continua. Los sistemas de CI pueden ejecutar automáticamente pruebas en cada commit o en cada push, lo que asegura que el código siempre pase las pruebas antes de ser integrado.
+    Menos errores humanos: Al automatizar las pruebas, reduces la posibilidad de errores humanos durante la ejecución de pruebas manuales, ya que los tests se ejecutan de forma consistente según lo programado.
+    Ahorro de tiempo y recursos a largo plazo: Aunque la creación de pruebas automatizadas puede requerir algo de tiempo inicial, a largo plazo ahorra mucho tiempo al evitar la repetición manual de pruebas y al garantizar que los errores se detecten más rápidamente.
+###4 En una prueba unitaria con Python, si una función devuelve 5 pero se esperaba 7, ¿cómo se detectaría el error?
+Usando assert para comparar el resultado esperado con el real
+###5 ¿Qué método en TestCase se utiliza para preparar los recursos antes de cada prueba?
+setUp()
+###6 ¿Qué función se utiliza en una prueba unitaria para verificar que una excepción se lanza correctamente?
+assertRaises()
+###7 ¿Qué comando se usa para obtener una salida más detallada al ejecutar las pruebas unitarias?
+pytest -v
+###8 ¿Cuál es el propósito principal del método assertEqual en UnitTest?
+Verificar que dos valores son iguales.
+###9 ¿Qué método sería adecuado para verificar si un valor está dentro de una lista en UnitTest?
+assertIn
+###10 ¿Cuál es el propósito principal del decorador @skip en una prueba unitaria?
+Omitir temporalmente una prueba que aún no debe ejecutarse
+###11 ¿Cuál es la diferencia clave entre @skipIf y @skipUnless?
+@skipIf salta una prueba si una condición es verdadera, mientras que @skipUnless salta una prueba si la condición es falsa.
+###12 ¿Cuál sería un buen nombre para una prueba de un método withdraw que reduce el saldo con un valor positivo?
+test_withdraw_positive_amount_reduce_balance
+###13 ¿Cómo puedes ejecutar las pruebas de Doctest en un archivo Python?
+No es Ejecutando python doctest nombre_archivo.py
+###14 ¿Qué comando en Coverage te permite generar un reporte visual de la cobertura de código en HTML?
+coverage html
+###15 Si quieres analizar qué partes de tu código no han sido probadas, ¿qué deberías hacer?
+Revisar el reporte HTML de Coverage
+
+
